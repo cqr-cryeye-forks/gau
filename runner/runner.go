@@ -3,11 +3,11 @@ package runner
 import (
 	"context"
 	"fmt"
-	"github.com/lc/gau/v2/pkg/providers"
-	"github.com/lc/gau/v2/pkg/providers/commoncrawl"
-	"github.com/lc/gau/v2/pkg/providers/otx"
-	"github.com/lc/gau/v2/pkg/providers/urlscan"
-	"github.com/lc/gau/v2/pkg/providers/wayback"
+	"github.com/cqr-cryeye-forks/gau/pkg/providers"
+	"github.com/cqr-cryeye-forks/gau/pkg/providers/commoncrawl"
+	"github.com/cqr-cryeye-forks/gau/pkg/providers/otx"
+	"github.com/cqr-cryeye-forks/gau/pkg/providers/urlscan"
+	"github.com/cqr-cryeye-forks/gau/pkg/providers/wayback"
 	"github.com/sirupsen/logrus"
 	"sync"
 )

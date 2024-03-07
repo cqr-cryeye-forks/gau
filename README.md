@@ -1,3 +1,6 @@
+# The app is incompatible with its origin!!! 
+
+
 # getallurls (gau)
 [![License](https://img.shields.io/badge/license-MIT-_red.svg)](https://opensource.org/licenses/MIT)
 
@@ -50,23 +53,23 @@ $ gau -h
 ## Configuration Files
 gau automatically looks for a configuration file at `$HOME/.gau.toml` or`%USERPROFILE%\.gau.toml`. You can specify options and they will be used for every subsequent run of gau. Any options provided via command line flags will override options set in the configuration file.
 
-An example configuration file can be found [here](https://github.com/lc/gau/blob/master/.gau.toml)
+An example configuration file can be found [here](https://github.com/cqr-cryeye-forks/gau/blob/master/.gau.toml)
 
 ## Installation:
 ### From source:
 ```
-$ go install github.com/lc/gau/v2/cmd/gau@latest
+$ go install github.com/cqr-cryeye-forks/gau/cmd/gau@latest
 ```
 ### From github :
 ```
-git clone https://github.com/lc/gau.git; \
+git clone https://github.com/cqr-cryeye-forks/gau.git; \
 cd gau/cmd; \
 go build; \
 sudo mv gau /usr/local/bin/; \
 gau --version;
 ```
 ### From binary:
-You can download the pre-built binaries from the [releases](https://github.com/lc/gau/releases/) page and then move them into your $PATH.
+You can download the pre-built binaries from the [releases](https://github.com/cqr-cryeye-forks/gau/releases/) page and then move them into your $PATH.
 
 ```bash
 $ tar xvf gau_2.0.6_linux_amd64.tar.gz
@@ -92,7 +95,7 @@ Bear in mind that piping command (echo "example.com" | gau) will not work with t
 
 
 ## ohmyzsh note:
-ohmyzsh's [git plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) has an alias which maps `gau` to the `git add --update` command. This is problematic, causing a binary conflict between this tool "gau" and the zsh plugin alias "gau" (`git add --update`). There is currently a few workarounds which can be found in this Github [issue](https://github.com/lc/gau/issues/8). 
+ohmyzsh's [git plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) has an alias which maps `gau` to the `git add --update` command. This is problematic, causing a binary conflict between this tool "gau" and the zsh plugin alias "gau" (`git add --update`). There is currently a few workarounds which can be found in this Github [issue](https://github.com/cqr-cryeye-forks/gau/issues/8). 
 
 
 ## Useful?

@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"context"
 	"fmt"
+	"github.com/cqr-cryeye-forks/gau/pkg/httpclient"
+	"github.com/cqr-cryeye-forks/gau/pkg/providers"
 	jsoniter "github.com/json-iterator/go"
-	"github.com/lc/gau/v2/pkg/httpclient"
-	"github.com/lc/gau/v2/pkg/providers"
 	"github.com/sirupsen/logrus"
 	"strings"
 )

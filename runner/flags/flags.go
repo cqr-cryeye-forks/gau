@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/cqr-cryeye-forks/gau/pkg/providers"
 	mapset "github.com/deckarep/golang-set/v2"
-	"github.com/lc/gau/v2/pkg/providers"
 	"github.com/lynxsecurity/pflag"
 	"github.com/lynxsecurity/viper"
 	log "github.com/sirupsen/logrus"
